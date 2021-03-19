@@ -12,6 +12,7 @@ const Maze = require('./maze');
 const mazeGame = new Maze(Client);
 const bot = new Discord.Client({disableEveryone: true});
 const { TOKEN } = "YOUR TOKEN";
+const prefix = "tamil "
 
 bot.on("ready", async () => {
     console.log(``) // READY
