@@ -18,6 +18,7 @@ bot.on("ready", async () => {
     console.log(``) // READY
     bot.user.setActivity(``) // ACTIVITY OF YOUR BOT
 });
+
 bot.on("message", async message => {
   
     // CHANNEL PREFIX, DEFINE ARGS AND COMMAND
