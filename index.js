@@ -16,8 +16,8 @@ const prefix = "tamil "
 const Fs = require("fs")
 
 bot.on("ready", async () => {
-    console.log(``) // READY
-    bot.user.setActivity(``) // ACTIVITY OF YOUR BOT
+    console.log(`ready`) // READY
+    bot.user.setActivity(`activity`, {type: "PLAYING"}) // ACTIVITY OF YOUR BOT
 });
 
 bot.on("message", async (message) => {
